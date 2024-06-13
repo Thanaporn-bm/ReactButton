@@ -16,7 +16,59 @@ export const button = style({
 });
 
 export const variant = styleVariants({
-  primary: [button, { background: '#2196F3', color: 'white',borderRadius:'10px', ':hover':{backgroundColor:'#0D47A1'},':focus':{backgroundColor:'#1565C0',outline: '8px solid #E3F2FD'},':active':{backgroundColor:'#1565C0', color: 'lightgray',outline: 'none'},':disabled': { backgroundColor: '#82B1FF', color: '#E0E0E0', cursor: 'not-allowed'}}],
-  secondary: [button, { background: 'white', color: 'black', border: '1px solid black',borderRadius:'10px',':hover':{backgroundColor:'lightgray'},':focus':{backgroundColor:'darkgray'},':active':{backgroundColor:'darkgray', color: 'lightgray'},':disabled': { backgroundColor: 'white', color:'#E0E0E0', border: '1px solid darkgray', cursor: 'not-allowed' }}],
-  tertiary: [button, { background: 'white', color:'darkviolet',borderRadius:'10px',':hover':{color:'purple'},':focus':{backgroundColor:'#d7BDFF'},':active':{backgroundColor:'white', color: 'black'},':disabled': { backgroundColor: 'white', color: '#E0E0E0', cursor: 'not-allowed' }}],
+  primary: [
+    button,
+    {
+      background: "#5F2EEA",
+      color: "white",
+      borderRadius: "10px",
+      ":hover": { backgroundColor: "#1D0071" },
+      ":focus": { 
+        backgroundColor: "#5F2EEA",
+        outline: "8px solid #E4DAFF" },
+      ":active": {
+        backgroundColor: "#5F2EEA",
+        outline: "none",
+      },
+      ":disabled": {
+        backgroundColor: "#AA99DA",
+        cursor: "not-allowed",
+      },
+    },
+  ],
+  secondary: [
+    button,
+    {
+      background: "white",
+      color: "black",
+      border: "1px solid #222F3E",
+      borderRadius: "10px",
+      ":hover": { border: "1px solid #14142B" },
+      ":focus": { outline:"8px solid #F4F5FC" },
+      ":active": { 
+        border: "1px solid #222F3E", 
+        outline: "none" },
+      ":disabled": {
+        backgroundColor: "white",
+        color: "#E0E0E0",
+        border: "1px solid #C3CED9",
+        cursor: "not-allowed",
+      },
+    },
+  ],
+  tertiary: [
+    button,
+    {
+      background: "#FAFCFC00",
+      color: "#5F2EEA",
+      borderRadius: "10px",
+      ":hover": { color: "#1D0071" },
+      ":focus": { backgroundColor: "#F4F5FC" },
+      ":active": { backgroundColor: "white", color: "black" },
+      ":disabled": {
+        color: "#F4F5FC",
+        cursor: "not-allowed",
+      },
+    },
+  ],
 });
