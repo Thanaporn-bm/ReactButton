@@ -13,6 +13,7 @@
     "@craco/craco": "^7.1.0",
     "@vanilla-extract/css": "^1.15.2",
     "@vanilla-extract/integration": "^7.1.5",
+    "@vanilla-extract/recipes": "^0.5.3",
     "@vanilla-extract/vite-plugin": "^4.0.10",
     "babel-plugin-optimize-clsx": "^2.6.2",
     "eslint-plugin-clsx": "^0.0.3",
