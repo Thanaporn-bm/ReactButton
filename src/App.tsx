@@ -2,16 +2,15 @@
 import { Button } from './Components';
 
 
-function App() {
+export function App() {
   return (
     <div>
-      <Button variant="primary" text="Primary" />
-      <Button variant="secondary" text="Secondary" />
-      <Button variant="tertiary" text="Tertiary" />
+      <Button variant="primary" text="Primary" onClick={() => alert('Primary Button clicked!')}/>
+      <Button variant="secondary" text="Secondary" onClick={() => alert('Secondary Button clicked!')} />
+      <Button variant="tertiary" text="Tertiary" onClick={() => alert('Tertiary Button clicked!')}/>
     </div>
   );
 
 }
-  
 
-export default App
+
